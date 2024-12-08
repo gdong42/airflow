@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#000000" />
+    <meta
+      name="description"
+      content="AIData Frontend Application"
+    />
+
+ 
+    <meta name="is_scheduler_running" content="True">
+  
+
+    <meta name="dag_id" content="example_skip_dag">
+    <meta name="dag_display_name" content="example_skip_dag">
+    <meta name="dag_timezone" content="UTC">
+    <!-- Urls -->
+    <meta name="logs_with_metadata_url" content="/get_logs_with_metadata">
+    <meta name="external_log_url" content="/redirect_to_external_log">
+    <meta name="extra_links_url" content="/extra_links">
+    <meta name="paused_url" content="/paused">
+    <meta name="dagrun_clear_url" content="/dagrun_clear">
+    <meta name="dagrun_failed_url" content="/dagrun_failed">
+    <meta name="dagrun_success_url" content="/dagrun_success">
+    <meta name="dagrun_queued_url" content="/dagrun_queued">
+    <meta name="clear_url" content="/clear">
+    <meta name="failed_url" content="/failed">
+    <meta name="success_url" content="/success">
+    <meta name="confirm_url" content="/confirm">
+    <meta name="grid_data_url" content="/object/grid_data">
+    <meta name="graph_data_url" content="/object/graph_data">
+    <meta name="calendar_data_url" content="/object/calendar_data">
+    <meta name="next_run_assets_url" content="/object/next_run_assets/example_skip_dag">
+    <meta name="grid_url" content="/dags/example_skip_dag/grid">
+    <meta name="task_tries_api" content="/api/v1/dags/_DAG_ID_/dagRuns/_DAG_RUN_ID_/taskInstances/_TASK_ID_/tries">
+    <meta name="assets_url" content="/assets">
+    <meta name="grid_url_no_root" content="/dags/example_skip_dag/grid">
+    <meta name="graph_url" content="/dags/example_skip_dag/graph">
+    <meta name="task_url" content="/task?dag_id=example_skip_dag">
+    <meta name="log_url" content="/log?dag_id=example_skip_dag">
+    <meta name="rendered_k8s_data_url" content="/object/rendered-k8s?dag_id=example_skip_dag">
+    <meta name="task_instances_list_url" content="/taskinstance/list/">
+    <meta name="tag_index_url" content="/home?tags=_TAG_NAME_">
+    <meta name="mapped_instances_api" content="/api/v1/dags/example_skip_dag/dagRuns/_DAG_RUN_ID_/taskInstances/_TASK_ID_/listMapped">
+    <meta name="task_log_api" content="/api/v1/dags/example_skip_dag/dagRuns/_DAG_RUN_ID_/taskInstances/_TASK_ID_/logs/-1">
+    <meta name="task_xcom_entries_api" content="/api/v1/dags/example_skip_dag/dagRuns/_DAG_RUN_ID_/taskInstances/_TASK_ID_/xcomEntries">
+    <meta name="task_xcom_entry_api" content="/api/v1/dags/example_skip_dag/dagRuns/_DAG_RUN_ID_/taskInstances/_TASK_ID_/xcomEntries/_XCOM_KEY_">
+    <meta name="upstream_asset_events_api" content="/api/v1/dags/example_skip_dag/dagRuns/_DAG_RUN_ID_/upstreamAssetEvents">
+    <meta name="task_instance_api" content="/api/v1/dags/_DAG_ID_/dagRuns/_DAG_RUN_ID_/taskInstances/_TASK_ID_">
+    <meta name="set_task_instance_note" content="/api/v1/dags/example_skip_dag/dagRuns/_DAG_RUN_ID_/taskInstances/_TASK_ID_/setNote">
+    <meta name="set_mapped_task_instance_note" content="/api/v1/dags/example_skip_dag/dagRuns/_DAG_RUN_ID_/taskInstances/_TASK_ID_/0/setNote">
+    <meta name="set_dag_run_note" content="/api/v1/dags/example_skip_dag/dagRuns/_DAG_RUN_ID_/setNote">
+    <meta name="dag_api" content="/api/v1/dags/example_skip_dag">
+    <meta name="dag_source_api" content="/api/v1/dagSources/example_skip_dag">
+    <meta name="dag_details_api" content="/api/v1/dags/example_skip_dag/details">
+    <meta name="assets_api" content="/api/v1/assets">
+    <meta name="event_logs_api" content="/api/v1/eventLogs">
+    <meta name="audit_log_url" content="/log/list/">
+    <meta name="dag_run_url" content="/api/v1/dags/__DAG_ID__/dagRuns/__DAG_RUN_ID__">
+    <meta name="task_dependency_api" content="/api/v1/dags/example_skip_dag/dagRuns/_DAG_RUN_ID_/taskInstances/_TASK_ID_/dependencies">
+    <meta name="mapped_task_dependency_api" content="/api/v1/dags/example_skip_dag/dagRuns/_DAG_RUN_ID_/taskInstances/_TASK_ID_/0/dependencies">
+    <meta name="task_detail_api" content="/api/v1/dags/example_skip_dag/tasks/_TASK_ID_">
+  
+    <!-- End Urls -->
+    <meta name="is_paused" content="False">
+    <meta name="csrf_token" content="IjZhOGY4YjkyODIxMTEwY2IwMjIyNWQwNTYxN2ZmZDA5NjdiNTkzYWYi.Z1WTww.L7LIExKyXICbyWmXOxTfgDS4Ujo">
+    <meta name="k8s_or_k8scelery_executor" content="False">
+    <meta name="excluded_audit_log_events" content="">
+    <meta name="included_audit_log_events" content="">
+    
+      <meta name="next_dagrun_create_after" content="2024-12-09 00:00:00+00:00">
+      <meta name="next_dagrun_data_interval_start" content="2024-12-08 00:00:00+00:00">
+      <meta name="next_dagrun_data_interval_end" content="2024-12-09 00:00:00+00:00">
+    
+    
+      <meta name="show_external_log_redirect" content="False">
+    
+    
+    <meta name="external_log_name" content="None">
+    
+    <meta name="can_edit" content="True">
+  
+    <meta name="num_runs" content="25">
+    <meta name="root" content="">
+    <meta name="base_date" content="">
+    <meta name="default_wrap" content="False">
+    <meta name="asset_events_api" content="/api/v1/assets/events">
+    <meta name="color_log_error_keywords" content="error,exception">
+    <meta name="color_log_warning_keywords" content="warn">
+    <meta name="can_edit_taskinstance" content="True">
+
+    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+    -->
+    <title>AIData Frontend</title>
+  </head>
+  <body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+      <div id="react-container"></div>
+    </div>
+    <!--
+      This is the root element where your React app will be mounted.
+      You can add webfonts, meta tags, or analytics here.
+    -->
+  </body>
+</html>
